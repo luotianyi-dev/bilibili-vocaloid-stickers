@@ -27,3 +27,15 @@ ID | Telegram         | CDN          |名称
 [tg-162]: https://t.me/addstickers/ltymoe_bilibiliemote_162_snowmiku
 [tg-166]: https://t.me/addstickers/ltymoe_bilibiliemote_166_luotianyi_sailing_nightstar
 [tg-255]: https://t.me/addstickers/lty9th
+
+[cos-009]: https://image-host-1251131545.file.myqcloud.com/luotianyi-dev/bilibili-vocaloid-stickers/9-洛天依.zip
+[cos-088]: https://image-host-1251131545.file.myqcloud.com/luotianyi-dev/bilibili-vocaloid-stickers/88-乐正绫五周年生日.zip
+[cos-094]: https://image-host-1251131545.file.myqcloud.com/luotianyi-dev/bilibili-vocaloid-stickers/94-墨清弦2nd生日纪念.zip
+[cos-101]: https://image-host-1251131545.file.myqcloud.com/luotianyi-dev/bilibili-vocaloid-stickers/101-洛天依8th生日纪念.zip
+[cos-102]: https://image-host-1251131545.file.myqcloud.com/luotianyi-dev/bilibili-vocaloid-stickers/102-言和7th生日纪念.zip
+[cos-115]: https://image-host-1251131545.file.myqcloud.com/luotianyi-dev/bilibili-vocaloid-stickers/115-初音未来13周年.zip
+[cos-127]: https://image-host-1251131545.file.myqcloud.com/luotianyi-dev/bilibili-vocaloid-stickers/127-乐正龙牙三周年.zip
+[cos-159]: https://image-host-1251131545.file.myqcloud.com/luotianyi-dev/bilibili-vocaloid-stickers/159-徵羽摩柯.zip
+[cos-162]: https://image-host-1251131545.file.myqcloud.com/luotianyi-dev/bilibili-vocaloid-stickers/162-雪未来.zip
+[cos-166]: https://image-host-1251131545.file.myqcloud.com/luotianyi-dev/bilibili-vocaloid-stickers/166-洛天依·夜航星.zip
+[cos-255]: https://image-host-1251131545.file.myqcloud.com/luotianyi-dev/bilibili-vocaloid-stickers/255-洛天依9th生日纪念.zip
