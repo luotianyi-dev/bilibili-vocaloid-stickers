@@ -1,2 +1,7 @@
-bilibili.com_cookies.txt
+*cookies.txt
 /telegram/
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.DS_Store
