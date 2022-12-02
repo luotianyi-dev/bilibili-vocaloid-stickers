@@ -13,6 +13,8 @@ shutil.rmtree(target, ignore_errors=True)
 os.makedirs(target, exist_ok=True)
 
 for filename in os.listdir(source):
+    if not filename.endswith(".png"):
+        continue
     print("正在缩放", filename)
     img = Image.open(os.path.join(source, filename))
     img = img.resize((512, 512), Image.ANTIALIAS)
