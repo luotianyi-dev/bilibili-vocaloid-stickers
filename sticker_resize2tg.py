@@ -3,8 +3,18 @@ import sys
 import shutil
 from PIL import Image
 
+if len(sys.argv) != 2:
+    print("Usage: python sticker_resize2tg.py <id>")
+    sys.exit(1)
+
 sticker_group_id = int(sys.argv[1])
-sticker_group_path = list(filter(lambda name: int(name.split("-")[0].strip()) == sticker_group_id, os.listdir("pictures")))[0]
+for filename in os.listdir("pictures"):
+    try:
+        if int(filename.split("-")[0].strip()) == sticker_group_id:
+            sticker_group_path = filename
+            break
+    except ValueError:
+        continue
 print("表情包名称:", sticker_group_path)
 
 source = os.path.join("pictures", sticker_group_path)

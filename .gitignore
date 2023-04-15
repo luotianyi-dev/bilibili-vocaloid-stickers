@@ -1,4 +1,5 @@
 *cookies.txt
+*saved_credentials.json
 /telegram/
 __pycache__/
 *.py[cod]
