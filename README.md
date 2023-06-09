@@ -2,7 +2,7 @@
 此仓库收集了 BiliBili 所有的 V 家表情包，并提供了 Telegram 上的 Sticker。您也可以通过此仓库或我们在中国大陆境内的 CDN 获取 PNG 文件。
 
 ## 新增：个性装扮解包
-个性装扮解包文件位于 `skindump` 文件夹下，第一级文件夹为装扮 ID ，文件夹内文件使用 JSON Path 格式命名。
+个性装扮解包文件位于 `skins` 文件夹下，第一级文件夹为装扮 ID ，文件夹内文件使用 JSON Path 格式命名。
 
 部分动画使用 SVGA 格式保存。SVGA 是一种专有的矢量动画格式，相关资料可以在 [SVGA 官网](https://svga.io/) 找到。这种与国际标准不通用的格式造成了很多不便，我们在此表示谴责。
 
@@ -20,6 +20,7 @@ ID          |名称
 33372       |未来有你5周年
 33373       |洛天依十周年
 50875       |樱花未来
+54182       |代号洛天依
 109435501   |乐正绫八周年生日纪念
 
 ## 下载
@@ -46,6 +47,7 @@ ID  | Telegram          | CDN           |名称
 1096|[Telegram][tg-1096]|[CDN][cos-1096]|古色花香洛天依
 1298|[Telegram][tg-1298]|[CDN][cos-1298]|乐正绫八周年
 1330|[Telegram][tg-1330]|[CDN][cos-1330]|樱花未来
+1842|[Telegram][tg-1842]|[CDN][cos-1842]|樱花未来
 
 [tg-009]:  https://t.me/addstickers/Bilibili009LuoTianYi
 [tg-088]:  https://t.me/addstickers/Bilibili088YuezhengLing5th
@@ -68,6 +70,7 @@ ID  | Telegram          | CDN           |名称
 [tg-1096]: https://t.me/addstickers/lty_1096
 [tg-1298]: https://t.me/addstickers/ling8th
 [tg-1330]: https://t.me/addstickers/miku_sakura
+[tg-1330]: https://t.me/addstickers/ProjectLuo
 
 [cos-009]:  https://luotianyi-dev-1251131545.file.myqcloud.com/bilibili-vocaloid-stickers/9-洛天依.zip
 [cos-088]:  https://luotianyi-dev-1251131545.file.myqcloud.com/bilibili-vocaloid-stickers/88-乐正绫五周年生日.zip
@@ -90,3 +93,4 @@ ID  | Telegram          | CDN           |名称
 [cos-1096]: https://luotianyi-dev-1251131545.file.myqcloud.com/bilibili-vocaloid-stickers/1096-古色花香洛天依.zip
 [cos-1298]: https://luotianyi-dev-1251131545.file.myqcloud.com/bilibili-vocaloid-stickers/1298-乐正绫八周年.zip
 [cos-1330]: https://luotianyi-dev-1251131545.file.myqcloud.com/bilibili-vocaloid-stickers/1330-樱花未来.zip
+[cos-1842]: https://luotianyi-dev-1251131545.file.myqcloud.com/bilibili-vocaloid-stickers/1842-代号洛天依.zip
