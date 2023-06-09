@@ -6,7 +6,7 @@
 
 部分动画使用 SVGA 格式保存。SVGA 是一种专有的矢量动画格式，相关资料可以在 [SVGA 官网](https://svga.io/) 找到。这种与国际标准不通用的格式造成了很多不便，我们在此表示谴责。
 
-我们尝试将部分 SVGA 渲染为 PNG 序列，并将转换成的 GIF 放置于 `anidest` 文件夹下。我们的 GIF 转换过程并不完美，因此 GIF 质量并不高，您可以选择使用本仓库中的 PNG 序列自行转换。
+我们尝试将部分 SVGA 渲染为 PNG 序列，并将转换成的 GIF 放置于 `skins_gif` 文件夹下。我们的 GIF 转换过程并不完美，因此 GIF 质量并不高，您可以选择使用本仓库中的 PNG 序列自行转换。
 
 **装扮 ID**
 
@@ -47,7 +47,7 @@ ID  | Telegram          | CDN           |名称
 1096|[Telegram][tg-1096]|[CDN][cos-1096]|古色花香洛天依
 1298|[Telegram][tg-1298]|[CDN][cos-1298]|乐正绫八周年
 1330|[Telegram][tg-1330]|[CDN][cos-1330]|樱花未来
-1842|[Telegram][tg-1842]|[CDN][cos-1842]|樱花未来
+1842|[Telegram][tg-1842]|[CDN][cos-1842]|代号洛天依
 
 [tg-009]:  https://t.me/addstickers/Bilibili009LuoTianYi
 [tg-088]:  https://t.me/addstickers/Bilibili088YuezhengLing5th
@@ -70,7 +70,7 @@ ID  | Telegram          | CDN           |名称
 [tg-1096]: https://t.me/addstickers/lty_1096
 [tg-1298]: https://t.me/addstickers/ling8th
 [tg-1330]: https://t.me/addstickers/miku_sakura
-[tg-1330]: https://t.me/addstickers/ProjectLuo
+[tg-1842]: https://t.me/addstickers/ProjectLuo
 
 [cos-009]:  https://luotianyi-dev-1251131545.file.myqcloud.com/bilibili-vocaloid-stickers/9-洛天依.zip
 [cos-088]:  https://luotianyi-dev-1251131545.file.myqcloud.com/bilibili-vocaloid-stickers/88-乐正绫五周年生日.zip
