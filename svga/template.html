@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="Cache-Control" content="no-siteapp"/>
+    <meta name="google" content="notranslate">
+    <title>%name%</title>
+    <script src="/_resources/svga.min.js"></script>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: -apple-system, 'Helvetica Neue', Helvetica, 'Nimbus Sans L', Arial, 'Liberation Sans', 'PingFang SC', 'Hiragino Sans GB',
+                'Source Han Sans CN', 'Source Han Sans SC', 'Microsoft YaHei', 'Wenquanyi Micro Hei', 'WenQuanYi Zen Hei', 'ST Heiti', SimHei,
+                'WenQuanYi Zen Hei Sharp', sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center;">SVGA Helper</h1>
+    <pre>
+        Theme ID: %theme_id%
+        Name: %name%
+        Save to path: %output%
+    </pre>
+    <center>
+        <canvas id="canvas"></canvas>
+        <br><br><br>
+        <b>状态：<span id="state">未开始播放</span></b>
+    </center>
+    
+    <script async>
+        (async () => {
+            const parser = new SVGA.Parser();
+            const svga = await parser.load('/%path%');
+            const player = new SVGA.Player({
+                container: document.getElementById('canvas'),
+                loop: 1,
+            });
+
+            const canvas = document.getElementById('canvas');
+            const mediaType = 'video/mp4';
+            const stream = canvas.captureStream();
+            const recorder = new MediaRecorder(stream, { mimeType: mediaType, videoBitsPerSecond: 6000000 });
+            const data = [];
+            recorder.ondataavailable = function (event) {
+                if (event.data && event.data.size) {
+                    data.push(event.data);
+                }
+            };
+            recorder.onstop = () => {
+                const url = URL.createObjectURL(new Blob(data, { type: mediaType }));
+                const link = document.createElement('a');
+                link.href = url;
+                link.download = '%name%.mp4';
+                link.click();
+            };
+
+            player.onStart = () => {
+                document.getElementById('state').innerText = '播放中';
+            };
+            player.onEnd = () => {
+                recorder.stop();
+                document.getElementById('state').innerText = '播放结束';
+            };
+
+            recorder.start();
+            player.mount(svga);
+            player.start();
+        })();
+    </script>
+</body>
+</html>
