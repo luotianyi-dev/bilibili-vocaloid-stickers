@@ -5,7 +5,8 @@
 NFT (数字收藏) 将发布于 `assets/nft` 文件夹下。
 
 > They are JPEGs. Just Right click and download it.
-> *Linus Tech Tips*
+>
+> -- *Linus Tech Tips*
 
 NFT 列表：
  - 洛天依11周年生日实体纪念卡
@@ -66,6 +67,15 @@ ID  | Telegram          | CDN           |名称
 2057|[Telegram][tg-2057]|[CDN][cos-2057]|言和十周年生日特别纪念
 2363|[Telegram][tg-2363]|[CDN][cos-2363]|天依游学记·歌行
 3512|[Telegram][tg-3512]|[CDN][cos-3512]|乐正龙牙六周年生日纪念
+3752|[Telegram][tg-3752]|[CDN][cos-3752]|洛天依蝶变
+3863|[Telegram][tg-3863]|[CDN][cos-3863]|五维介质
+3911|[Telegram][tg-3911]|[CDN][cos-3911]|五维介质2
+3949|[Telegram][tg-3949]|[CDN][cos-3949]|徵羽摩柯五周年生日纪念
+4128|[Telegram][tg-4128]|[CDN][cos-4128]|洛天依歌行四方
+4400|[Telegram][tg-4400]|[CDN][cos-4400]|洛·LUO表情包
+4525|[Telegram][tg-4525]|[CDN][cos-4525]|初音未来三连快乐表情包
+4778|[Telegram][tg-4778]|[CDN][cos-4778]|乐正绫九周年表情包
+5009|[Telegram][tg-5009]|[CDN][cos-5009]|墨清弦六周年纪念表情包
 
 <!-- MARK OF AUTOGEN TELEGRAM LINKS -->
 [tg-9]:       https://t.me/addstickers/Bilibili009LuoTianYi
@@ -95,6 +105,15 @@ ID  | Telegram          | CDN           |名称
 [tg-2057]:    https://t.me/addstickers/yanhe10th
 [tg-2363]:    https://t.me/addstickers/lty_singiertour
 [tg-3512]:    https://t.me/addstickers/yuezheng_longya_6th
+[tg-3752]:    https://t.me/addstickers/luotianyi_butterfly
+[tg-3863]:    https://t.me/addstickers/quadimension
+[tg-3911]:    https://t.me/addstickers/quadimension_next
+[tg-3949]:    https://t.me/addstickers/moke5th
+[tg-4128]:    https://t.me/addstickers/lty_yalahula
+[tg-4400]:    https://t.me/addstickers/lty_4400
+[tg-4525]:    https://t.me/addstickers/miku_4525
+[tg-4778]:    https://t.me/addstickers/ling9th
+[tg-5009]:    https://t.me/addstickers/mo_qingxian_6th
 <!-- MARK OF AUTOGEN TELEGRAM LINKS -->
 
 <!-- MARK OF AUTOGEN COS CDN LINKS -->
@@ -125,6 +144,15 @@ ID  | Telegram          | CDN           |名称
 [cos-2057]:   https://luotianyi-dev-1251131545.file.myqcloud.com/bilibili-vocaloid-stickers/2057-言和十周年生日特别纪念.zip
 [cos-2363]:   https://luotianyi-dev-1251131545.file.myqcloud.com/bilibili-vocaloid-stickers/2363-天依游学记·歌行.zip
 [cos-3512]:   https://luotianyi-dev-1251131545.file.myqcloud.com/bilibili-vocaloid-stickers/3512-乐正龙牙六周年生日纪念.zip
+[cos-3752]:   https://luotianyi-dev-1251131545.file.myqcloud.com/bilibili-vocaloid-stickers/3752-洛天依蝶变.zip
+[cos-3863]:   https://luotianyi-dev-1251131545.file.myqcloud.com/bilibili-vocaloid-stickers/3863-五维介质.zip
+[cos-3911]:   https://luotianyi-dev-1251131545.file.myqcloud.com/bilibili-vocaloid-stickers/3911-五维介质2.zip
+[cos-3949]:   https://luotianyi-dev-1251131545.file.myqcloud.com/bilibili-vocaloid-stickers/3949-徵羽摩柯五周年生日纪念.zip
+[cos-4128]:   https://luotianyi-dev-1251131545.file.myqcloud.com/bilibili-vocaloid-stickers/4128-洛天依歌行四方.zip
+[cos-4400]:   https://luotianyi-dev-1251131545.file.myqcloud.com/bilibili-vocaloid-stickers/4400-洛·LUO表情包.zip
+[cos-4525]:   https://luotianyi-dev-1251131545.file.myqcloud.com/bilibili-vocaloid-stickers/4525-初音未来三连快乐表情包.zip
+[cos-4778]:   https://luotianyi-dev-1251131545.file.myqcloud.com/bilibili-vocaloid-stickers/4778-乐正绫九周年表情包.zip
+[cos-5009]:   https://luotianyi-dev-1251131545.file.myqcloud.com/bilibili-vocaloid-stickers/5009-墨清弦六周年纪念表情包.zip
 <!-- MARK OF AUTOGEN COS CDN LINKS -->
 
 ## 脚本使用

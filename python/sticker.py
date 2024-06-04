@@ -10,6 +10,11 @@ from PIL import Image
 from qcloud_cos import CosConfig, CosS3Client
 
 
+HEADERS = {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3"
+}
+
+
 def load_downloaded_sticker_sets() -> list:
     folders         = os.listdir(CONF.PATH_STICKERS)
     sticker_folders = list(filter(lambda x: ('-' in x) and not x.startswith("."), folders))
@@ -41,7 +46,7 @@ def load_fetched_sticker_sets() -> list:
 
 def fetch():
     cookies  = connection.load_cookies()
-    response = requests.get(CONF.URL_FETCH_STICKERS, cookies=cookies)
+    response = requests.get(CONF.URL_FETCH_STICKERS, cookies=cookies, headers=HEADERS)
     connection.ensure_ok(response)
 
     sticker_sets = response.json()["data"]["all_packages"]
@@ -55,7 +60,7 @@ def fetch():
 
 def dump(id: int):
     cookies  = connection.load_cookies()
-    response = requests.get(CONF.URL_DUMP_STICKERS_F.format(id), cookies=cookies)
+    response = requests.get(CONF.URL_DUMP_STICKERS_F.format(id), cookies=cookies, headers=HEADERS)
     connection.ensure_ok(response)
 
     sticker_set      = response.json()["data"]["packages"][0]
