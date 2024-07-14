@@ -76,6 +76,10 @@ ID  | Telegram          | CDN           |名称
 4525|[Telegram][tg-4525]|[CDN][cos-4525]|初音未来三连快乐表情包
 4778|[Telegram][tg-4778]|[CDN][cos-4778]|乐正绫九周年表情包
 5009|[Telegram][tg-5009]|[CDN][cos-5009]|墨清弦六周年纪念表情包
+5259|[Telegram][tg-5259]|[CDN][cos-5259]|初音未来梦色星球
+5283|[Telegram][tg-5283]|[CDN][cos-5283]|洛天依·收藏集表情包
+5361|[Telegram][tg-5361]|[CDN][cos-5361]|洛天依心律共鸣表情包
+5370|[Telegram][tg-5370]|[CDN][cos-5370]|起氏双子-忆起鸿裳
 
 <!-- MARK OF AUTOGEN TELEGRAM LINKS -->
 [tg-9]:       https://t.me/addstickers/Bilibili009LuoTianYi
@@ -105,7 +109,7 @@ ID  | Telegram          | CDN           |名称
 [tg-2057]:    https://t.me/addstickers/yanhe10th
 [tg-2363]:    https://t.me/addstickers/lty_singiertour
 [tg-3512]:    https://t.me/addstickers/yuezheng_longya_6th
-[tg-3752]:    https://t.me/addstickers/luotianyi_butterfly
+[tg-3513]:    https://t.me/addstickers/luotianyi_butterfly
 [tg-3863]:    https://t.me/addstickers/quadimension
 [tg-3911]:    https://t.me/addstickers/quadimension_next
 [tg-3949]:    https://t.me/addstickers/moke5th
@@ -114,6 +118,10 @@ ID  | Telegram          | CDN           |名称
 [tg-4525]:    https://t.me/addstickers/miku_4525
 [tg-4778]:    https://t.me/addstickers/ling9th
 [tg-5009]:    https://t.me/addstickers/mo_qingxian_6th
+[tg-5259]:    https://t.me/addstickers/MikuYumeiroWakusei
+[tg-5283]:    https://t.me/addstickers/lty_collection
+[tg-5361]:    https://t.me/addstickers/lty12th
+[tg-5370]:    https://t.me/addstickers/qifu_qili_7th
 <!-- MARK OF AUTOGEN TELEGRAM LINKS -->
 
 <!-- MARK OF AUTOGEN COS CDN LINKS -->
@@ -153,6 +161,10 @@ ID  | Telegram          | CDN           |名称
 [cos-4525]:   https://luotianyi-dev-1251131545.file.myqcloud.com/bilibili-vocaloid-stickers/4525-初音未来三连快乐表情包.zip
 [cos-4778]:   https://luotianyi-dev-1251131545.file.myqcloud.com/bilibili-vocaloid-stickers/4778-乐正绫九周年表情包.zip
 [cos-5009]:   https://luotianyi-dev-1251131545.file.myqcloud.com/bilibili-vocaloid-stickers/5009-墨清弦六周年纪念表情包.zip
+[cos-5259]:   https://luotianyi-dev-1251131545.file.myqcloud.com/bilibili-vocaloid-stickers/5259-初音未来梦色星球.zip
+[cos-5283]:   https://luotianyi-dev-1251131545.file.myqcloud.com/bilibili-vocaloid-stickers/5283-洛天依·收藏集表情包.zip
+[cos-5361]:   https://luotianyi-dev-1251131545.file.myqcloud.com/bilibili-vocaloid-stickers/5361-洛天依心律共鸣表情包.zip
+[cos-5370]:   https://luotianyi-dev-1251131545.file.myqcloud.com/bilibili-vocaloid-stickers/5370-起氏双子-忆起鸿裳.zip
 <!-- MARK OF AUTOGEN COS CDN LINKS -->
 
 ## 脚本使用
