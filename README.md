@@ -4,14 +4,17 @@
 ## 新增：NFT
 NFT (数字收藏) 将发布于 `assets/nft` 文件夹下。
 
-> They are JPEGs. Just Right click and download it.
+> They are JPEGs. Just right click and download it.
 >
 > -- *Linus Tech Tips*
 
 NFT 列表：
  - 洛天依11周年生日实体纪念卡
  - 洛天依11周年QQ表情
+ - 洛天依11周年收藏集
  - 天依游学记·歌行
+ - 洛天依12周年·再生
+ - 洛天依12周年·心律共鸣
 
 您可以通过我们的 [OneDrive 镜像](https://pan.lty.vc/A.%20杂项/NFT/) 下载 NFT。
 
