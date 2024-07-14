@@ -21,7 +21,7 @@ def load_downloaded_sticker_sets() -> list:
     sticker_sets    = [
         {
             "id":       int(item.split('-')[0]),
-            "name":     item.split('-')[1],
+            "name":     '-'.join(item.split('-')[1:]),
             "stickers": list(filter(lambda x: x.endswith(".png"),
                                     os.listdir(os.path.join(CONF.PATH_STICKERS, item))))
         }
