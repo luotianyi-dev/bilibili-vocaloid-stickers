@@ -35,7 +35,7 @@ ID          |名称
 33373       |洛天依十周年
 50875       |樱花未来
 54182       |代号洛天依
-109435501   |乐正绫八周年生日纪念、
+109435501   |乐正绫八周年生日纪念
 `d3d07dc72de9c8afa737dc3a1248deeb304ec4dc`|洛天依·夜航星
 `cb7477e75fc48fdb72d33e4ff63def74764a69dd`|徵羽摩柯五周年
 `3dd19a990ecdeede3f9676fecac5beacb26bf934`|言和十周年
@@ -117,7 +117,7 @@ ID  | Telegram          | CDN           |名称
 [tg-2057]:    https://t.me/addstickers/yanhe10th
 [tg-2363]:    https://t.me/addstickers/lty_singiertour
 [tg-3512]:    https://t.me/addstickers/yuezheng_longya_6th
-[tg-3513]:    https://t.me/addstickers/luotianyi_butterfly
+[tg-3752]:    https://t.me/addstickers/luotianyi_butterfly
 [tg-3863]:    https://t.me/addstickers/quadimension
 [tg-3911]:    https://t.me/addstickers/quadimension_next
 [tg-3949]:    https://t.me/addstickers/moke5th
