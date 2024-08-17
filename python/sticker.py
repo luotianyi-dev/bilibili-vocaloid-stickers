@@ -1,5 +1,6 @@
 import os
 import sys
+import time
 import shutil
 import zipfile
 import argparse
@@ -73,15 +74,25 @@ def dump(id: int):
     os.makedirs(dist, exist_ok=True)
     print(f"Saving stickers to {dist}")
     for sticker in stickers:
+        sticker_gif      = sticker.get("gif_url", None)
         sticker_url      = sticker["url"]
         sticker_name     = sticker["text"][1:-1]
+        if sticker_gif is not None:
+            sticker_filename = os.path.join(dist, f"{sticker_name}.gif")
+            sticker_response = requests.get(sticker_gif, headers=HEADERS)
+            connection.ensure_ok(sticker_response)
+            print(f"  Downloading: [GIF] {sticker_gif}")
+            print(f"    Saving to: [GIF] {sticker_filename}")
+            with open(sticker_filename, "wb+") as f:
+                f.write(sticker_response.content)
         sticker_filename = os.path.join(dist, f"{sticker_name}.png")
-        print(f"  Downloading: {sticker_name}")
-        sticker_response = requests.get(sticker_url)
+        sticker_response = requests.get(sticker_url, headers=HEADERS)
         connection.ensure_ok(sticker_response)
-        print(f"    Saving to: {sticker_filename}")
+        print(f"  Downloading: [PNG] {sticker_url}")
+        print(f"    Saving to: [PNG] {sticker_filename}")
         with open(sticker_filename, "wb+") as f:
             f.write(sticker_response.content)
+        time.sleep(0.5)
 
 
 def find(keyword: str):
@@ -128,6 +139,12 @@ def pack(silent: bool = False):
                 if not silent:
                     print(f"    Adding {sticker_filename}")
                 f.write(sticker_filename, f"{sticker_set['id']}-{sticker_set['name']}/{sticker}")
+                sticker_gif = sticker.replace(".png", ".gif")
+                if os.path.exists(os.path.join(CONF.PATH_STICKERS, f"{sticker_set['id']}-{sticker_set['name']}", sticker_gif)):
+                    sticker_filename = os.path.join(CONF.PATH_STICKERS, f"{sticker_set['id']}-{sticker_set['name']}", sticker_gif)
+                    f.write(sticker_filename, f"{sticker_set['id']}-{sticker_set['name']}/{sticker_gif}")
+                    if not silent:
+                        print(f"    Adding {sticker_filename}")
 
 
 def upload(dry: bool = True):
@@ -224,12 +241,15 @@ def resize_telegram():
         dest = os.path.join(CONF.DIST_TELEGRAM, f"{sticker_set['id']}-{sticker_set['name']}")
         os.makedirs(dest, exist_ok=True)
         for filename in os.listdir(src):
-            if not filename.endswith(".png"):
-                continue
-            print("  Scaling", filename)
-            img = Image.open(os.path.join(src, filename))
-            img = img.resize((512, 512), Image.LANCZOS)
-            img.save(os.path.join(dest, filename))
+            if filename.endswith(".png"):
+                print("  Scaling", filename)
+                img = Image.open(os.path.join(src, filename))
+                img = img.resize((512, 512), Image.LANCZOS)
+                img.save(os.path.join(dest, filename))
+            if filename.endswith(".gif"):
+                print("  FFMpeg Processing", filename)
+                vp9_filename = filename.replace(".gif", ".webm")
+                os.system(f"ffmpeg -i {os.path.join(src, filename)} -c:v libvpx-vp9 -vf \"fps=30,scale=-1:512\" {os.path.join(dest, vp9_filename)}")
         print("Saved to", dest, "\n")
 
 
