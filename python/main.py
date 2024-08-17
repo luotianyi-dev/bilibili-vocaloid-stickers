@@ -3,6 +3,7 @@ import argparse
 
 import theme
 import sticker
+import qq_sticker
 
 
 if __name__ == "__main__":
@@ -40,6 +41,7 @@ if __name__ == "__main__":
     parser_command_theme_action_list     = parser_command_theme_action.add_parser("list", help="list all themes that have already downloaded")
 
     parser_command_clean                 = parser_command.add_parser("clean", help="clean the dist folder")
+    parser_command_qq_sticker            = parser_command.add_parser("qq_sticker", help="QQ sticker related actions")
 
     arguments = parser.parse_args()
     if arguments.command == "clean":
@@ -48,3 +50,5 @@ if __name__ == "__main__":
         sticker.main(arguments)
     if arguments.command == "theme":
         theme.main(arguments)
+    if arguments.command == "qq_sticker":
+        qq_sticker.main(arguments)
