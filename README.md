@@ -91,6 +91,7 @@ ID  | Telegram          | CDN           |名称
 5283|[Telegram][tg-5283]|[CDN][cos-5283]|洛天依·收藏集表情包
 5361|[Telegram][tg-5361]|[CDN][cos-5361]|洛天依心律共鸣表情包
 5370|[Telegram][tg-5370]|[CDN][cos-5370]|起氏双子-忆起鸿裳
+5582|[Telegram][tg-5582]|[CDN][cos-5582]|心律共鸣动态表情包
 
 <!-- MARK OF AUTOGEN TELEGRAM LINKS -->
 [tg-9]:       https://t.me/addstickers/Bilibili009LuoTianYi
@@ -133,6 +134,7 @@ ID  | Telegram          | CDN           |名称
 [tg-5283]:    https://t.me/addstickers/lty_collection
 [tg-5361]:    https://t.me/addstickers/lty12th
 [tg-5370]:    https://t.me/addstickers/qifu_qili_7th
+[tg-5582]:    https://t.me/addstickers/lty12th_animated
 <!-- MARK OF AUTOGEN TELEGRAM LINKS -->
 
 <!-- MARK OF AUTOGEN COS CDN LINKS -->
@@ -176,6 +178,7 @@ ID  | Telegram          | CDN           |名称
 [cos-5283]:   https://luotianyi-dev-1251131545.file.myqcloud.com/bilibili-vocaloid-stickers/5283-洛天依·收藏集表情包.zip
 [cos-5361]:   https://luotianyi-dev-1251131545.file.myqcloud.com/bilibili-vocaloid-stickers/5361-洛天依心律共鸣表情包.zip
 [cos-5370]:   https://luotianyi-dev-1251131545.file.myqcloud.com/bilibili-vocaloid-stickers/5370-起氏双子-忆起鸿裳.zip
+[cos-5582]:   https://luotianyi-dev-1251131545.file.myqcloud.com/bilibili-vocaloid-stickers/5582-心律共鸣动态表情包.zip
 <!-- MARK OF AUTOGEN COS CDN LINKS -->
 
 ## 脚本使用
